@@ -6,13 +6,12 @@ This project is an example within _The Ultimate PaperTrail Guide_. It is a simpl
 
 ## Setup
 
-To run the demo app, first clone it:
+To run the demo app, clone it:
 
-    git clone https://github.com/seancdavis/ultimate_paper_trail_guide.git
+    git clone https://github.com/changebase-io/paper-trail-edited-state-example.git
 
-Change into this project directory and install dependencies:
+Install dependencies:
 
-    cd ultimate_paper_trail_guide/edited-state
     bundle install
 
 Seed the database:
