@@ -9,6 +9,7 @@ This project is an example within _The Ultimate PaperTrail Guide_. It is a simpl
 To run the demo app, clone it:
 
     git clone https://github.com/changebase-io/paper-trail-edited-state-example.git
+    cd paper-trail-edited-state-example
 
 Install dependencies:
 
