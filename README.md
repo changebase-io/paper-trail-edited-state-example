@@ -1,6 +1,8 @@
 # Edited State Example
 
-This project is an example within _The Ultimate PaperTrail Guide_. See the README in the main project directory for more information.
+This project is an example within _The Ultimate PaperTrail Guide_. It is a simple Slack-like application that uses PaperTrail to track message versions and shows when a message has been edited.
+
+![PaperTrail Edited State Example Screenshot](./docs/screenshot.png)
 
 ## Setup
 
