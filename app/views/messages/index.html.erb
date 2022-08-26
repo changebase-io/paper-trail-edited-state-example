@@ -1,6 +1,6 @@
 <div class="flex h-screen">
   <%# --- Channels (Left Col) --- %>
-  <div class="text-white bg-stone-800">
+  <div class="text-white bg-stone-800 min-w-[20rem]">
     <div class="px-8 py-6 border-b border-stone-600">
       <h2 class="mb-1 text-sm font-extralight">Ultimate PaperTrail Guide</h2>
       <h1 class="mb-0 text-2xl font-bold">Edited State Example</h1>
@@ -43,7 +43,7 @@
         </div>
         <% messages.each do |message| %>
           <div class="flex px-4 mb-6 space-x-2" id="message-<%= message.id %>">
-            <div class="mt-1">
+            <div class="flex-shrink-0 mt-1">
               <%= image_tag "https://i.pravatar.cc/400?img=#{message.user.id}", class: "rounded-lg h-10 w-10" %>
             </div>
             <div class="relative flex-grow">
@@ -58,7 +58,7 @@
                 <%= message.body %>
               </div>
               <% if message.user == current_user %>
-                <div class="absolute top-2 right-4">
+                <div class="absolute top-[-.35rem] right-4">
                   <%= link_to 'Edit', edit_channel_message_path(@channel, message), class: 'text-xs p-2 border border-stone-300 text-stone-500 uppercase no-underline rounded-md hover:text-pink-500 hover:border-pink-500 duration-300 transition-colors' %>
                 </div>
               <% end %>
