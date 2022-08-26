@@ -2,7 +2,7 @@
 
 This project is an example within _The Ultimate PaperTrail Guide_. It is a simple Slack-like application that uses PaperTrail to track message versions and shows when a message has been edited.
 
-![PaperTrail Edited State Example Screenshot](./docs/screenshot.png)
+![PaperTrail Edited State Example Screenshot](./docs/messages-screenshot.png)
 
 ## Setup
 
